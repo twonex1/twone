@@ -34,8 +34,8 @@ function loadTrack(index) {
   audioPlayer.src = track.src;
   document.querySelector('.song-title').textContent = track.title;
   audioPlayer.load();
-  audioPlayer.volume = 0.21;
-  volumeBar.value = 21;
+  audioPlayer.volume = 0.10;
+  volumeBar.value = 10;
   currentTimeDisplay.textContent = formatTime(0);
   durationDisplay.textContent = formatTime(audioPlayer.duration);
   if (isPlaying) {
